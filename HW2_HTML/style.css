@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(57, 169, 219);
+    font-family: Rubik, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.contacts,.registration_form,#overlay{
+    width: 80%;
+    margin: 3% auto;
+    padding: 20px 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 40px;
+}
+.container_table{
+    margin: 3% auto;
+    padding: 20px 20px;
+}
+
+.table_contacts {
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    position: static;
+    width: 80%;
+}
+.table_contacts caption, .form_name{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+thead th {
+    background: #88CCF1;
+    color: #FFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+tr {
+    background: #f4f7f8;
+    border-bottom: 1px solid #FFF;
+    margin-bottom: 5px;
+}
+
+th, td {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 20px;
+    text-align: left;
+    width: 33.3333%;
+}
+
+form{
+    text-align: center;
+    line-height: 30px;
+    height: 50%;
+    overflow: auto;
+}
+form hr {
+    width: 20%;
+}
+h1 {
+    text-align: center;
+}
+.main_page{
+    text-align: center;
+}
+#logo {
+    height: 100px;
+    display: block;
+    margin: auto;
+}

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="eu" dir="ltr">
+<head>
+    <title>Registration</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+</head>
+<body>
+<div class="registration_form">
+    <form action="submission.html" method="post">
+        <fieldset>
+            <legend class="form_name">Registration Form</legend>
+            <section class="first_name">
+                <label for="name">First name:</label>
+                <input id="name" name="name" type="text" placeholder="Input your first name" required>
+            </section>
+            <section class="last_name">
+                <label for="surname">Last name:</label>
+                <input id="surname" name="surname" type="text" placeholder="Input your last name" required>
+            </section>
+            <hr>
+            <section class="gender">
+                <span>Indicate your gender:</span>
+                <br>
+                <input id="female" name="gender" type="radio" value="female" checked>
+                <label for="female">F</label>
+                <input id="male" name="gender" type="radio" value="male">
+                <label for="male">M</label>
+            </section>
+            <hr>
+            <section class="comments">
+                <label for="comment">COMMENT</label>
+                <br>
+                <textarea id="comment" name="comment" placeholder="Write your comment"></textarea>
+            </section>
+            <hr>
+            <section class="city">
+                <label for="city">Your city:</label>
+                <select id="city" name="city">
+                    <option disabled selected>Select city</option>
+                    <option value="Amsterdam">Amsterdam</option>
+                    <option value="Berlin">Berlin</option>
+                    <option value="Moscow">Moscow</option>
+                </select>
+            </section>
+            <hr>
+            <section class="languages">
+                <span>Languages:</span>
+                <input id="english" name="language" type="checkbox" value="English">
+                <label for="english">English</label>
+                <input id="russian" name="language" type="checkbox" value="Russian">
+                <label for="russian">Russian</label>
+                <input id="ukrainian" name="language" type="checkbox" value="Ukrainian">
+                <label for="ukrainian">Ukrainian</label>
+            </section>
+
+            <section class="submission">
+                <input type="submit" value="Submit">
+            </section>
+        </fieldset>
+    </form>
+</div>
+
+</body>
+</html>
