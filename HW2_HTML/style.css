@@ -24,6 +24,9 @@ body {
     position: static;
     width: 80%;
 }
+a {
+    text-decoration: none;
+}
 .table_contacts caption, .form_name{
     font-family: 'Lato', sans-serif;
     font-size: 18px;
