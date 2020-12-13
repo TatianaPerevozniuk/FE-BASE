@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #3f3f3f;
+    margin: 0 auto;
+}
+.container{
+    height: 100vh;
+}
+.table1, .table2, .table3{
+    width: 60%;
+    margin: 3% auto;
+    height: 20vh;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+
+.trow_head, .trow{
+    border: 1px solid gray;
+}
+
+.text {
+    color: #FFFFFF;
+    text-align: left;
+    padding: 1%;
+}
+.text_head, .date_points{
+    display: block;
+    position: relative;
+}
+.text_name,.text_date,
+.triangle-down, #file, .search,
+.date, .three_points{
+    display: inline-block;
+}
+.point{
+    display: inline-block;
+    width: 3px;
+    height: 3px;
+    border-radius: 100%;
+    background: #fff;
+}
+.three_points{
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+}
+.search{
+    position: absolute;
+    border-radius: 5px;
+    right: 0;
+}
+.form_search_text{
+    max-width: 90px;
+}
+
+.form_search_text,.search{
+    background-color: dimgray;
+    border: 0;
+    border-radius: 5px;
+}
+.form_search_img{
+    padding-left: 2px;
+    padding-top: 2px;
+}
+.form_search_text::placeholder{
+    color: gray;
+    font-size: 1.2em;
+    padding-left: 10px;
+}
+.date{
+    color: gray;
+}
+.form_search_img, .trow_img{
+max-width: 17px;
+}
+
+.triangle-down {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 8px solid white;
+}
+
