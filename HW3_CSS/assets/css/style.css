@@ -13,13 +13,13 @@ body{
     width: 60%;
     margin: 3% auto;
     height: 20vh;
+    border: 1px solid grey;
     border-collapse: collapse;
     table-layout: fixed;
 }
 
-
 .trow_head, .trow{
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
 }
 
 .text {
@@ -31,10 +31,15 @@ body{
     display: block;
     position: relative;
 }
-.text_name,.text_date,
+.text_name,.icon_table-2,.text_date,
 .triangle-down, #file, .search,
-.date, .three_points{
+.date, .three_points {
     display: inline-block;
+}
+
+.icon_table-2{
+    width: 17px;
+    height: 14px;
 }
 .point{
     display: inline-block;
@@ -52,9 +57,11 @@ body{
     position: absolute;
     border-radius: 5px;
     right: 0;
+    width: 50%;
 }
-.form_search_text{
-    max-width: 90px;
+.form_search{
+    display: flex;
+    padding: 2px 0 2px 10px;
 }
 
 .form_search_text,.search{
@@ -62,13 +69,16 @@ body{
     border: 0;
     border-radius: 5px;
 }
-.form_search_img{
-    padding-left: 2px;
-    padding-top: 2px;
+.form_search_text{
+    width: 80%;
 }
+.search{
+    width: 40%;
+}
+
 .form_search_text::placeholder{
-    color: gray;
-    font-size: 1.2em;
+    color: #a1a1a1;
+    font-size: 1.1em;
     padding-left: 10px;
 }
 .date{
