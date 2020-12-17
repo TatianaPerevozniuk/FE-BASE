@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 @font-face {
     font-family: 'Lato';
@@ -48,10 +49,8 @@ body{
     margin: 0 auto 39px;
 }
 .intro_title{
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
     font-weight: bold;
-    font-size: 72px;
+    font-size: 5em;
     line-height: 86px;
     margin: 30% auto 0;
     letter-spacing: 0.05em;
@@ -60,13 +59,15 @@ body{
 
     color: #FFFFFF;
 }
+@media screen and (max-width:468px) {
+    .intro_title {font-size: 32px;}
+}
 .intro_inner_content{
     width: 100%;
     max-width: 493px;
     margin: 0 auto;
 }
 .text_content{
-    font-family: 'Lato', sans-serif;
     font-size: 24px;
     line-height: 150%;
 
@@ -78,11 +79,11 @@ body{
 .btn {
     display: inline-block;
     vertical-align: top;
-    padding: 23px 52px 10px;
+    padding: 16px 52px;
     background: #FFFFFF;
     border-radius: 6px;
     margin: 39px auto 0;
-    font-size: 14px;
+
     line-height: 17px;
     text-transform: uppercase;
     color: #ED4C5C;
@@ -105,10 +106,13 @@ body{
     border-radius: 7px;
     font-size: 15px;
 }
-.btn_len:hover{
-    opacity: 0.1%;
+.btn_len{
+    padding-top: 6px;
+    opacity: 1;
 }
-
+.btn_len:hover{
+    opacity: 0.8;
+}
 /*Container*/
 .container{
     width: 100%;
@@ -128,7 +132,6 @@ body{
      z-index: 100;
  }
  .logo{
-     font-family: 'Lato', sans-serif;
      font-weight: 700;
      font-size: 18px;
      line-height: 22px;
@@ -153,10 +156,6 @@ body{
     padding-top: 58px;
 }
 .navigation{
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 17px;
     display: flex;
     flex-wrap: wrap;
@@ -179,10 +178,6 @@ body{
     align-items: center;
     flex-wrap: wrap;
 
-    font-family: 'Lato', sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
     line-height: 17px;
     text-transform: uppercase;
     color: #FFFFFF;
