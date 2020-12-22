@@ -1,0 +1,229 @@
+*,
+*:before,
+*:after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/LatoRegular.woff2") format('woff2');
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #3f3f3f;
+}
+a, .footer_text{
+    text-decoration: none;
+}
+/*Section*/
+.section_intro,
+.section_contact,
+.footer{
+    width: 100%;
+    min-height: 500px;
+    margin: 0 auto;
+    background: #ED4C5C;
+    padding-top:101px;
+    padding-bottom: 86px;
+}
+.section_contact{
+    background: #FFFFFF;
+}
+.footer{
+    background: #FAFAFA;
+}
+.section_inner,
+.block_footer
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.content_money,.img_money,
+.content_contact
+{
+    width: 100%;
+    max-width: 445px;
+}
+.section_title{
+    padding-top: 28px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+.section_text{
+    margin-top: 24px;
+    margin-bottom: 42px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 140%;
+    text-align: justify;
+    color: #FFFFFF;
+}
+.section_title_contact,
+.section_text_contact{
+    margin-top: 0;
+    padding: 0;
+    color: #000;
+}
+.section_text_contact{
+    padding-top: 50px;
+}
+.apple-appstore_link{
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.google-playstore_svg,
+.apple-appstore_svg
+{
+    width: 32px;
+    height: 32px;
+    transition: transform .1s linear;
+}
+.windows_svg
+{margin-bottom: 3px;
+    width: 24px;
+    height: 24px;
+    transition: transform .1s linear;
+}
+.google-playstore_svg:hover,
+.apple-appstore_svg:hover,
+.windows_svg:hover{
+    transform: translate3d(0, 3px, 0);
+}
+.img_inner{
+    border-radius: 15px;
+    max-width: 445px;
+}
+.form_contact,
+.block_footer_second{
+    width: 100%;
+    max-width: 540px;
+}
+/*Container*/
+.container{
+    width: 100%;
+    max-width: 1099px;
+    margin: 0 auto;
+    text-align: left;
+}
+/*Form*/
+.full_name{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.first_name,
+.last_name{
+    width: 100%;
+    max-width: 255px;
+}
+input,select{
+    height: 60px;
+    width: 100%;
+    max-width: 540px;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding-left: 30px;
+    padding-right: 22px;
+}
+
+#number{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.submission_btn{
+    padding-top: 25px;
+    max-width: 160px;
+    width: 100%;
+    height: 50px;
+}
+.submission{
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    transition: transform .1s linear;
+}
+.submission:hover
+{
+    transform: translate3d(5px, 5px, 5px);
+}
+/*Footer*/
+.services_link,
+.contact_link{
+    display: flex;
+    flex-direction: column;
+}
+.address{
+    max-width: 165px;
+}
+.footer_title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #101010;
+    margin-bottom: 33px;
+}
+.address .footer_text
+{
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+}
+.services_link_text{
+    font-size: 12px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #000000;
+}
+.services_link_text:hover,
+.contact_link_text:hover,
+.contact_number
+{
+    color: #ED4C5C;
+}
+.contact_link_text{
+    font-size: 12px;
+    line-height: 14px;
+    color: #101010;
+}
+.contact_number{
+    color: #121212;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.linkedin{
+    margin-left: 13px;
+    margin-right: 13px;
+}
+.copyright_footer{
+    position: relative;
+    min-height: 400px;
+}
+.copyright{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #101010;
+}
+.link_social:hover{
+    transform: translate3d(0, 3px, 0);
+}
