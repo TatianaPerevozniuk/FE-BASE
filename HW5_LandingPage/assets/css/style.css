@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+*:focus {
+    outline: none;
+}
 @font-face{
     font-family: 'Lato';
     font-style: normal;
