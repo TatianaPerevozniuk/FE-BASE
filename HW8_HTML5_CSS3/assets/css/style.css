@@ -471,3 +471,27 @@ transition: 0.2s linear;
     margin-top: 5%;
     margin-bottom: 7%;
 }
+
+/*Container menu fixed*/
+@media screen and (max-width: 500px){
+    .container_menu{
+        height: 100%;
+        max-height: 2270px;
+        min-height: 100vh;
+        /*min-height: 852px;*/
+        margin-bottom: 5px;
+        margin-top: 5px;
+    }
+    .logo{
+        position: fixed;
+        top:5%;
+    }
+    .menu{
+        position: fixed;
+        top:20%;
+    }
+    .exit_link{
+        position: fixed;
+        bottom:5%;
+    }
+}
